@@ -25,6 +25,7 @@ The **AI-Based Online Exam Proctoring System** is a cutting-edge proctoring solu
 - **Deployment**: Hosted on a cloud platform with scalability in mind
 
 
+
 ## Installation & Setup
 ### Prerequisites
 - Python 3.x
@@ -32,33 +33,28 @@ The **AI-Based Online Exam Proctoring System** is a cutting-edge proctoring solu
 - 
 
 ### Steps
-1. **Clone the Repository**
-   ```bash
-   https://github.com/HelpRam/An-Inbrowser-Proctoring-System.git
-   cd .\futurproctor\
-   ```
 
-2. **Create and Activate Virtual Environment**
+1. **Create and Activate Virtual Environment**
    ```bash
    python -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
    ```
 
-3. **Install Dependencies**
+2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set Up Database**
+3. **Set Up Database**
    - Ensure Postgress is running.
    - Configure database settings in `settings.py`.
 
-5. **Run Migrations**
+4. **Run Migrations**
    ```bash
    python manage.py migrate
    ```
 
-6. **Start the Development Server**
+5. **Start the Development Server**
    ```bash
    python manage.py runserver
    ```
@@ -77,16 +73,10 @@ The **AI-Based Online Exam Proctoring System** is a cutting-edge proctoring solu
 - **Mobile App for Enhanced Accessibility**
 - **Multi-Exam Support with Custom Rules Configuration**
 
-## Contributors
-- **Ramdular Yadav** (Lead Developer)
 
-
-## License
-This project is licensed under the MIT License.
 
 ## Contact
 For any inquiries or contributions, feel free to reach out to:
 - **Email**: rushikeshghagas71@gmail.com
 - **Phone**: 7045750770
-
 
